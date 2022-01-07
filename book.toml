@@ -4,3 +4,21 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Corrosion"
+description = "Thoughts, insights, rants, and more about the Rust programming language and related topics."
+
+[build]
+create-missing = false
+
+[rust]
+edition = "2021"
+
+[output.html]
+curly-quotes = true
+mathjax-support = false
+copy-fonts = true
+git-repository-url = "https://github.com/bluk/corrosion"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/bluk/corrosion/edit/trunk/{path}"
+
+[output.html.playground]
+editable = true
