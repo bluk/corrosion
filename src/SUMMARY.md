@@ -2,6 +2,8 @@
 
 [Foreward](./foreward.md)
 
+- [Architecture and Design](./architecture_and_design.md)
+
 # Patterns and Techniques
 
 - [Replace Bools with Enums](./replace_bools_with_enums.md)
