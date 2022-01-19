@@ -3,6 +3,7 @@
 [Foreward](./foreward.md)
 
 - [Architecture and Design](./architecture_and_design.md)
+  - [Memory Layout in ECS](./memory_layout_in_ecs.md)
 
 # Patterns and Techniques
 
