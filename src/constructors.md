@@ -1,4 +1,4 @@
-# Factory Constructors
+# Constructors
 
 Rust does not require types to have constructors, and there is no special syntax
 or naming given to constructors.
@@ -6,7 +6,7 @@ or naming given to constructors.
 The [Rust API Guidelines][rust_api_guidelines_constructor] give a concise
 summary of recommendations, but I wanted to highlight a few points.
 
-## Factory Functions
+## Constructor Functions
 
 Types can be instantiated entirely by fields:
 
@@ -83,9 +83,8 @@ pub fn new_vehicle(name: String, wheel_count: u8) -> Vehicle {
 let v = new_vehicle("Old Faithful".to_string(), 4);
 ```
 
-Constructors are closer to factory methods from other languages because there is
-no special syntax, no special method name (e.g. do not need to use the type's
-name like Java or `init` like Swift), and no unique privileges given to
+There is no special syntax, no special method name (e.g. do not need to use the
+type's name like Java or `init` like Swift), and no unique privileges given to
 constructing functions in Rust.
 
 Constructors are important and common in Rust, but there is not much more to
