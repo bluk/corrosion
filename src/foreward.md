@@ -1,7 +1,7 @@
 # Foreward
 
-Consider this "book" a collection of random articles about Rust and related
-topics.
+Consider this "book" a collection of random articles about [Rust][rust] and
+related topics.
 
 I do not intend for this project to be a complete introduction to Rust. The
 organization (as well as much of the content) is constantly evolving. There are
@@ -17,4 +17,5 @@ The content is licensed under Creative Commons Attribution-NonCommercial 4.0
 International Public License. You can find a summary of the license on the
 [Creative Commons site][CC_BY_NC_4_0].
 
+[rust]: https://www.rust-lang.org
 [CC_BY_NC_4_0]: https://creativecommons.org/licenses/by-nc/4.0/
