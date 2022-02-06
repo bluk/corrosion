@@ -4,6 +4,7 @@
 
 - [Architecture and Design](./architecture_and_design.md)
   - [Memory Layout in ECS](./memory_layout_in_ecs.md)
+  - [Basically Just the Data](./basically_just_the_data.md)
 
 # Patterns and Techniques
 
