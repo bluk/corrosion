@@ -50,7 +50,7 @@ Assuming a `Monster` is an `Entity`, then the `Position`, `Velocity`, and
 If there are multiple `Monster`s, then it is natural to store the data in a
 collection like an array where instances are contiguously stored:
 
-```
+```text
 ┌────────────────────┬────────────────────┬────────────────────┐
 │                    │                    │                    │
 │      Instance      │      Instance      │      Instance      │
@@ -61,7 +61,7 @@ collection like an array where instances are contiguously stored:
 More specifically, a single instance's fields' values are laid out in memory,
 then followed by all of the next instance's fields' values, and so forth:
 
-```
+```text
 ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │
 │ P │ P │ V │ V │ H │ P │ P │ V │ V │ H │ P │ P │ V │ V │ H │
@@ -106,7 +106,7 @@ first `Monster`'s properties, each array would need to be read.
 
 The data could be laid out in memory like:
 
-```
+```text
 ┌───┬───┬───┬───┬───┬───┬───────┬───┬───┬───┬───┬───┬───┬─────┬───┬───┬───┐
 │   │   │   │   │   │   │       │   │   │   │   │   │   │     │   │   │   │
 │ P │ P │ P │ P │ P │ P │       │ V │ V │ V │ V │ V │ V │     │ H │ H │ H │
