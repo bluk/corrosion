@@ -12,3 +12,4 @@
 - [Access Control](./access_control.md)
 - [Constructors](./constructors.md)
 - [self in fn](./self_in_fn.md)
+- [Newtype](./newtype.md)
