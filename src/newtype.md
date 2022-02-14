@@ -164,4 +164,36 @@ struct MyType2 {
 
 The newtype pattern is one way to "work around" the orphan rule.
 
+### Multiple Implementations for Single Trait
+
+A trait can only be implemented once for a type. So if you have a
+[`Display`][std_lib_display] implementation for a `Date` type, there can be
+no other `Display` implementation.
+
+```rust
+use std::fmt;
+use std::time::Instant;
+
+struct Date(Instant);
+
+impl fmt::Display for Date {
+  fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+    todo!("Print a locale specific date")
+  }
+}
+```
+
+Multiple attempts at implementing a trait for a type will result in a compiler
+error. Sometimes the crate which declared a trait will have blanket
+implementations. In most cases, it is helpful to have blanket implementations,
+but it can lead to conflicts.
+
+If you want to have different implementations, then multiple newtypes can be
+created with the original type. Each newtype can have its own trait
+implementation. For instance, if there is a `Date` type with a `Display` trait
+impelmentation, then perhaps in some usages, the local specific format should be
+used, and in other cases, the [ISO 8601][wiki_iso_8601] format should be used.
+
 [reference_orphan_rule]: https://doc.rust-lang.org/reference/items/implementations.html#orphan-rules
+[std_lib_display]: https://doc.rust-lang.org/std/fmt/trait.Display.html
+[wiki_iso_8601]: https://en.wikipedia.org/wiki/ISO_8601
