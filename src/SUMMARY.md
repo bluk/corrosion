@@ -21,3 +21,7 @@
 - [Replace Bools with Enums](./replace_bools_with_enums.md)
 - [Newtype](./newtype.md)
 - [Overloading Functions](./overloading_functions.md)
+
+# Resources
+
+- [Recommended Links](./recommended_links.md)
