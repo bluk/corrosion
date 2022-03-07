@@ -15,6 +15,7 @@
 - [Constructors](./constructors.md)
 - [Access Control](./access_control.md)
 - [self in fn](./self_in_fn.md)
+- [include_str and include_bytes](./include_bytes_and_str.md)
 
 # Patterns and Techniques
 
