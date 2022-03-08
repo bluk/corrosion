@@ -26,3 +26,4 @@
 # Resources
 
 - [Recommended Links](./recommended_links.md)
+- [Recommended Crates](./recommended_crates.md)
