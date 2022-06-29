@@ -10,6 +10,7 @@
 
 - [Systems Language](./systems_language.md)
 - [System Calls](./system_calls.md)
+- [Magic Numbers](./magic_numbers.md)
 
 # Language Features
 
