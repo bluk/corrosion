@@ -9,6 +9,7 @@
 # Random Thoughts
 
 - [Systems Language](./systems_language.md)
+- [System Calls](./system_calls.md)
 
 # Language Features
 
