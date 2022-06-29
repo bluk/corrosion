@@ -107,10 +107,11 @@ impl<T> Wrapper<T> {
 
 The generated code is similar to:
 
-```
-# struct Wrapper<T> {
-#   inner: T
-# }
+```rust
+struct Wrapper<T> {
+   inner: T
+}
+
 fn to_inner<T>(wrapper: Wrapper<T>) -> T {
   wrapper.inner
 }
