@@ -11,6 +11,7 @@
 - [Systems Language](./systems_language.md)
 - [System Calls](./system_calls.md)
 - [Magic Numbers](./magic_numbers.md)
+- [Efficient Productivity](./efficient_productivity.md)
 
 # Language Features
 
