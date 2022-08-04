@@ -12,6 +12,7 @@
 - [System Calls](./system_calls.md)
 - [Magic Numbers](./magic_numbers.md)
 - [Efficient Productivity](./efficient_productivity.md)
+- [Memory Management](./memory_management.md)
 
 # Language Features
 
